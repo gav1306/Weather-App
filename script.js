@@ -25,7 +25,7 @@ const fetchWeather = () => {
     .then((data) => {
       localStorage.setItem("weatherData", JSON.stringify(data));
       inputEl.value = "";
-      window.location.href = "http://127.0.0.1:5500/info.html";
+      window.location.href = "https://windmate.netlify.app/info.html";
     })
     .catch((error) => {
       errorEl.style.display = "block";

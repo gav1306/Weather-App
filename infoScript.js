@@ -16,7 +16,7 @@ const sunsetEl = document.getElementById("sunset");
 const weatherData = JSON.parse(localStorage.getItem("weatherData"));
 
 if (!weatherData) {
-  window.location.href = "http://127.0.0.1:5500/index.html";
+  window.location.href = "https://windmate.netlify.app/index.html";
 }
 
 const celsiusToFahrenheit = (celsius) => {
